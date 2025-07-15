@@ -1,14 +1,52 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>받아쓰기 선택</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>받아쓰기 날짜 선택</title>
+  <style>
+    body {
+      font-family: "맑은 고딕", sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.8em;
+    }
+    .button-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .link-button {
+      display: block;
+      text-align: center;
+      padding: 16px;
+      font-size: 1.2em;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: background-color 0.2s ease;
+    }
+    .link-button:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
   <h1>📘 받아쓰기 날짜 선택</h1>
-  <ul>
-    <li><a href="20250715/index.html">2025년 7월 15일 받아쓰기</a></li>
-    <!-- 필요시 추가 날짜 계속 아래에 붙이면 됩니다 -->
-  </ul>
+  <div class="button-list">
+    <a class="link-button" href="20250715/index.html">2025년 7월 15일 받아쓰기</a>
+    <a class="link-button" href="20250718/index.html">2025년 7월 18일 받아쓰기</a>
+
+  </div>
 </body>
 </html>
